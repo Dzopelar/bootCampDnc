@@ -1,0 +1,325 @@
+:root{
+    --azul-dnc: #0c70f2;
+    --preto-dnc: #303030;
+    --cinza-hover: #c9c9c9;
+    
+    --fonte-padrao: 'inter';
+}
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid #BABABA;
+    background: linear-gradient(180deg, rgba(12, 112, 242, 0.50) 19.91%, rgba(12, 112, 242, 0.00) 29.84%), #303030;
+    background-repeat: no-repeat;
+}
+
+#menuSuperiorPrincipal{
+    width: 100%;
+    height: 100px;
+    background: #303030;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #BABABA;;
+}
+
+#menu{
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 3%;
+}
+
+#menuSuperiorPrincipal div a{
+    font-family: 'Inter';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#menuSuperiorPrincipal div a:hover{
+    color: #cccccc;
+}
+
+
+#menuSuperiorPrincipal button{
+    margin-right: 5%;
+    width: 80px;
+    height: 39px;
+    flex-shrink: 0;
+    background: #0C70F2;
+    box-shadow: 3px 2px 4px 0px rgba(12, 112, 242, 0.25);
+    color: #FFF;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: 0px;
+    cursor: pointer;
+}
+/*Seção principal do site */
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+header{
+    color: white;
+    font-family: var(--fonte-padrao);  
+    text-align: center;  
+}
+
+header h1 {
+    font-size: 65px;
+    font-weight: 800px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+header h2{
+    font-size: 26px;
+    font-weight: normal;
+    margin-bottom: 85px;
+}
+.invert{
+    background-color: black;
+    font-weight: bold;
+    padding: 5px;
+}
+form{
+    color: white;
+    font-family: var(--fonte-padrao);
+    font-size: 22px;
+    font-weight: 600px;
+    padding-top: 5px;
+    width: 585px;
+}
+
+.formGroup{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 12px;
+}
+
+.formGroup label{
+    margin-bottom: 10px;
+}
+
+form input{
+    height: 45px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.90);
+    color: #FFFFFFE5 90%;
+    font-family: var(--fonte-padrao);
+    font-size: 14px;
+    color: rgba(57, 57, 57, 0.50);;
+    border: 0px;   
+    padding-left: 10px;
+}
+#checkboxItens label{
+    font-size: 25px;
+}
+    
+#checkboxItens{
+    display: flex;
+    justify-content: space-around;
+}
+
+#checkboxItens input{
+    width: 20px;
+    height: 22px;
+    flex-shrink: 0;
+    border: 2px solid #CCC;
+    background: #FFF;
+    color: #CCCCCC;
+}
+
+#bottonLogin{
+    border-radius: 10px;
+    background: rgba(12, 112, 242, 0.90);
+    box-shadow: 0px 6px 4px 0px rgba(12, 112, 242, 0.25);
+    width: 585px;
+    height: 56px;
+    flex-shrink: 0;
+    color: #0C70F2E5;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 62px;
+    cursor:pointer ;
+}
+
+footer{
+   width: 100%;
+   background-color: var(--azul-dnc);
+
+}
+
+footer .linhaUm{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    }
+
+    footer nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+footer h5{
+    text-align: center;
+    color: white;
+    font-weight: 800px;
+    font-size: 18px;
+    font-family: var(--fonte-padrao);
+    background: #303030;
+    border-radius: 10px;
+    padding: 11px 11px 11px 11px;
+
+}
+
+footer ul li{
+    text-align: center;
+    color: white;
+    font-weight: 800;
+    font-size: 16px;
+    font-family: var(--fonte-padrao);
+    margin: 20px 0px 5px 20px;
+    font-style: normal;
+}
+
+footer ul a{
+    color: white;
+    text-decoration: none;
+}
+
+footer .endereco{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 100px;
+}
+
+footer .linhaDois{
+    margin-top: 60px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+footer .linhaDois a{
+    color: white;
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 12px;
+    font-weight: 600;
+    line-height: normal;   
+    
+}
+
+footer .linhaDois a:hover{
+    color: var(--cinza-hover);
+}
+
+footer .linhaDois a:first-child{
+    border-right: 3px solid white;
+    padding-right: 5px;
+    margin-right: 5px;
+}
+
+@media only screen and (max-width: 600px){
+    
+    
+    #menuSuperiorPrincipal{
+        display:flex;
+        flex-direction: column;
+        height: auto;
+
+    }
+    #menu{
+        flex-direction: column;
+        width: 100%;
+        margin: 0px;
+    }
+
+    #menu a{
+        display: flex;
+        align-items: center;
+        height: 50px;  
+    }
+    #menuSuperiorPrincipal button{
+        width: 97%;
+        margin: 0px;
+        border-radius: 10px;
+    }
+
+    section h1{
+        font-size: 38px;
+
+    }
+    section h2{
+        font-size: 26px;
+        padding-right: 4px;
+        padding-left: 5px;
+    }
+
+    .invert{
+        font-size: 24px;
+        padding: 0px;
+    }
+
+    form{
+        width: 95%;
+        font-size: 18px;
+    }
+    #checkboxItens label{
+        font-size: 15px;
+    }
+    #bottonLogin{
+        width: 100%;
+        margin: 0px;
+    }
+
+    footer .linhaUm {
+        flex-direction: column;
+    }
+
+    footer .endereco{
+        width: 95%;
+    }
+}
